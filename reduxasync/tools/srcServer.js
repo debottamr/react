@@ -1,9 +1,3 @@
-//var express = require('express'); 
-//var webpack = require('webpack');
-//var path = require('path');
-//var config = require('../webpack.config.dev');
-//var open = require('open');
-//
 import express from 'express';
 import webpack from 'webpack';
 import path from 'path';
@@ -34,5 +28,3 @@ app.listen(port, function(err) {
     open(`http://localhost:${port}`);
   }
 });
-
-
